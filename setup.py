@@ -8,10 +8,10 @@ USER_NAME='Vani Bhatia'
 
 setuptools.setup(
     name=f"{Project_Name}-{USER_NAME}",
-    version="0.0.1",
+    version="0.0.2",
     author="USER_NAME",
     author_email="vanibhatia13@gmail.com",
-    description="It's an implementation of perceptron",
+    description="It's an implementation of perceptron class and function for preparing the data,saving the model,create and save the plot",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url=f"https://github.com/{USER_NAME}/{Project_Name}",
@@ -28,6 +28,9 @@ setuptools.setup(
     python_requires=">=3.9",
     install_requires=[
         "numpy",
-        "tqdm"
+        "tqdm",
+        "matplotlib",
+        "pandas",
+        "joblib"
     ]
 )
