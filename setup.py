@@ -8,7 +8,7 @@ USER_NAME='Vani Bhatia'
 
 setuptools.setup(
     name=f"{Project_Name}-{USER_NAME}",
-    version="0.0.2",
+    version="0.0.3",
     author="USER_NAME",
     author_email="vanibhatia13@gmail.com",
     description="It's an implementation of perceptron class and function for preparing the data,saving the model,create and save the plot",
@@ -25,7 +25,7 @@ setuptools.setup(
     ],
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
-    python_requires=">=3.9",
+    python_requires=">=3.7",
     install_requires=[
         "numpy",
         "tqdm",
